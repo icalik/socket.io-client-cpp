@@ -16,7 +16,7 @@ MESSAGE(SEND_ERROR "CMAKE_BUILD_TYPE must be either Release or Debug")
 return()
 endif()
 
-SET(CMAKE_INSTALL_PREFIX /usr/local)
+#SET(CMAKE_INSTALL_PREFIX /usr/local)
 set(BOOST_VER "1.55.0" CACHE STRING "boost version" )
 
 set(Boost_USE_MULTITHREADED ON) 
